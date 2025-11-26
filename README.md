@@ -138,7 +138,7 @@ vendor-performance-analysis/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/vendor-performance-analysis.git
+git clone  https://github.com/pallavivhalgade/vendor-performance-analysis-sql-python-powerbi-.git
 ```
 3. Load the CSVs and ingest into database:
 ```bash
@@ -158,6 +158,7 @@ python scripts/get_vendor_summary.py
  
 Pallavi Vholgade
 
-📧 Email: pallavivhalgade@gmail.com  
-🔗 [Github](https://github.com/pallavivhalgade/vendor-performance-analysis-sql-python-powerbi-) 
- 
+Final Year AIML Student | Aspiring Data Analyst
+📧 Email: pallavivhalgade@gmail.com
+
+🔗 GitHub
