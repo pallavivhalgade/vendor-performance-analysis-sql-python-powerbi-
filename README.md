@@ -157,6 +157,7 @@ python scripts/get_vendor_summary.py
 <h2><a class="anchor" id="author--contact"></a>Author & Contact</h2>
  
 Pallavi Vholgade
+
 📧 Email: pallavivhalgade@gmail.com  
 🔗 [Github](https://github.com/pallavivhalgade/vendor-performance-analysis-sql-python-powerbi-) 
  
