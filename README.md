@@ -159,6 +159,7 @@ python scripts/get_vendor_summary.py
 Pallavi Vholgade
 
 Final Year AIML Student | Aspiring Data Analyst
+
 📧 Email: pallavivhalgade@gmail.com
 
 🔗 GitHub
