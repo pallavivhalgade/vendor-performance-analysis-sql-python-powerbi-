@@ -4,6 +4,41 @@
 _Analyze vendor efficiency and profitability to support smarter purchasing and inventory decisions using SQL, Python, and Power BI._
 
 ---
+<a id="system-architecture"></a>
+## 🏗️ System Architecture
+
+The ingestion script loads CSV files into SQLite. The summary script joins purchasing and sales information and cleans the result. The analysis notebooks then support vendor, profitability, and inventory decisions.
+
+```mermaid
+flowchart LR
+    A["Retail CSV inputs"] --> B["Pandas ingestion"]
+    B --> C["SQLite inventory.db"]
+    C --> D["SQL joins and vendor summaries"]
+    D --> E["Cleaning and analysis notebooks"]
+    E --> F["Dashboard and business findings"]
+    class A entry
+    class B,D,E process
+    class C system
+    class F output
+    classDef entry fill:#EAF2FF,stroke:#5275AD,color:#1E3556
+    classDef process fill:#F0EBFA,stroke:#8870B2,color:#3B2856
+    classDef system fill:#FFF2DA,stroke:#AA8440,color:#51401E
+    classDef output fill:#E3F4EC,stroke:#4C8A72,color:#234C3B
+    classDef pending fill:#F8E9E7,stroke:#AD706A,color:#653C37,stroke-dasharray:5 5
+```
+
+<details>
+<summary><strong>Follow the implementation</strong></summary>
+
+| Stage | Source |
+| --- | --- |
+| CSV ingestion | [scripts/ingestion_db.py](scripts/ingestion_db.py) |
+| Summary creation | [scripts/get_vendor_summary.py](scripts/get_vendor_summary.py) |
+| Exploratory analysis | [notebooks/exploratory_data_analysis.ipynb](notebooks/exploratory_data_analysis.ipynb) |
+| Vendor analysis | [notebooks/vendor_performance_analysis.ipynb](notebooks/vendor_performance_analysis.ipynb) |
+
+</details>
+
 ## 📌 Table of Contents
 - <a href="#overview">Overview</a>  
 - <a href="#business-problem">Business Problem</a>  
